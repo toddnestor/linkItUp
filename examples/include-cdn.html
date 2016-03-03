@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Basic jHerc Usage</title>
+</head>
+<body>
+<h3>Here is the original text</h3>
+<div>I really like to go to google.com and google stuff.<br>I also like http://hercdev.io, both are pretty cool!</div>
+<h3>Here I am calling linkItUp() on it:</h3>
+<div id="stuff-to-be-linked">I really like to go to google.com and google stuff.<br>I also like http://hercdev.io, both are pretty cool!</div>
+<h3>Here I am calling linkItUp() on it with the new_tab option:</h3>
+<div id="stuff-to-be-linked2">I really like to go to google.com and google stuff.<br>I also like http://hercdev.io, both are pretty cool!</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/toddnestor/linkItUp/master/src/linkItUp.js"></script>
+<script type="text/javascript">
+    $('#stuff-to-be-linked').linkItUp();
+    $('#stuff-to-be-linked2').linkItUp({new_tab: true});
+</script>
+</body>
+</html>

@@ -12,7 +12,7 @@
     "ecosystem:jquery"
   ],
   "dependencies": {
-    "jquery": ">1.0.0"
+    "jquery": "latest"
   },
   "license": "MIT",
   "ignore": [

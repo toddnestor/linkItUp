@@ -39,7 +39,11 @@ You can also send in an options object:
 
 ```
 <script type=text/javascript">
-  $('body').linkItUp({new_tab: true, class: 'some-class and-other-class', style: 'color: red; text-decoration: none; font-weight: bold;'});
+    $('body').linkItUp({
+        new_tab: true,
+        class: 'some-class and-other-class',
+        style: 'color: red; text-decoration: none; font-weight: bold;'
+    });
 </script>
 ```
 

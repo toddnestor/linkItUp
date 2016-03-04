@@ -46,11 +46,8 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="http://herc-scripts.objects.cdn.dream.io/linkItUp.min.js"></script>
 <script type="text/javascript">
-    $('div').linkItUp({
-        new_tab: true,
-        class: 'some-class and-other-class',
-        style: 'color: red; text-decoration: none; font-weight: bold;'
-    });
+    $('#stuff-to-be-linked').linkItUp();
+    $('#stuff-to-be-linked2').linkItUp({new_tab: true, style: 'color: red; font-weight: bold;', title: 'some random title'});
 </script>
 </body>
 </html>

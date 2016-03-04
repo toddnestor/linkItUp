@@ -47,6 +47,21 @@ You can also send in an options object:
 </script>
 ```
 
+Though this is mainly a jQuery plugin, you can also use the linkItUp() function by itself (even if you haven't included jQuery).
+
+It accepts two arguments, the first is the string you want to turn into, and the second is the same options object the jQuery version of the method accepts.
+
+It returns the resulting string with the links in it.
+
+```
+<script type="text/javascript">
+    var string = 'I like google.com';
+    var options = {new_tab: true};
+    var result = linkItUp( string, options );
+    //result now equals: 'I like <a target="_blank" href="//google.com">google.com</a>'
+</script>
+```
+
 ### Options
 
 linkItUp accepts the following options:

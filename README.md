@@ -17,10 +17,16 @@ You can include jQuery by downloading it and including it in your project, or ju
 
 ### Installing
 
-Using npm?
+NPM
 
 ```
 npm install linkitup
+```
+
+Bower
+
+```
+bower install linkitup
 ```
 
 Otherwise either download this repository and include linkItUp.min.js in your project, or include the CDN like this:

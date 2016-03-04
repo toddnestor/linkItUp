@@ -1,0 +1,25 @@
+{
+  "name": "linkItUp",
+  "version": "1.0.0",
+  "homepage": "https://github.com/toddnestor/linkItUp",
+  "authors": [
+    "Todd Nestor  <todd.nestor@gmail.com>"
+  ],
+  "description": "A jQuery plugin to turn raw urls into links.",
+  "main": "src/linkItUp.min.js",
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "dependencies": {
+    "jquery": "any"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

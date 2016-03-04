@@ -31,7 +31,7 @@ You can now use this in your project.  Just use it on any jQuery selector.
 
 ```
 <script type=text/javascript">
-  $('body').linkItUp();
+  $('.container').linkItUp();
 </script>
 ```
 

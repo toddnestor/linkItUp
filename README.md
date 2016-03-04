@@ -17,7 +17,13 @@ You can include jQuery by downloading it and including it in your project, or ju
 
 ### Installing
 
-Either download this repository and include linkItUp.min.js in your project, or include the CDN like this:
+Using npm?
+
+```
+npm install linkitup
+```
+
+Otherwise either download this repository and include linkItUp.min.js in your project, or include the CDN like this:
 
 ```
 <script type="text/javascript" src="http://herc-scripts.objects.cdn.dream.io/linkItUp.min.js"></script>

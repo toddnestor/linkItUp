@@ -57,7 +57,7 @@ linkItUp accepts the following options:
 - title - send in contents of the title attribute, note that all the resulting links will have that same title
 - ref - send in contents of the ref attribute, note that all the resulting links will have that same ref
 
-You can use any or none of the options when callink linkItUp()
+You can use any or none of the options when calling linkItUp()
 
 ## Reference
 

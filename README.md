@@ -55,6 +55,10 @@ linkItUp accepts the following options:
 
 You can use any or none of the options when callink linkItUp()
 
+## Reference
+
+You can view the regex that is used by this plugin here: https://regex101.com/r/hU0tJ2/2
+
 ## Authors
 
 * **Todd Nestor** - *100% of the work* - [toddnestor](https://github.com/toddnestor)

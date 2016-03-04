@@ -70,7 +70,7 @@ linkItUp accepts the following options:
 - style - send in exact contents of style attribute like "color: red; font-weight: bold;"
 - class - send in exact contents of the class attribute like "first-class second-class"
 - title - send in contents of the title attribute, note that all the resulting links will have that same title
-- ref - send in contents of the ref attribute, note that all the resulting links will have that same ref
+- rel - send in contents of the rel attribute, note that all the resulting links will have that same rel
 
 You can use any or none of the options when calling linkItUp()
 

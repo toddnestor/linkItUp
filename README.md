@@ -76,7 +76,7 @@ You can use any or none of the options when calling linkItUp()
 
 ## Reference
 
-You can view the regex that is used by this plugin here: https://regex101.com/r/hU0tJ2/2
+You can view the regex that is used by this plugin here: https://regex101.com/r/hU0tJ2/3
 
 ## Authors
 
